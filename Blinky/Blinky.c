@@ -20,7 +20,7 @@
  *----------------------------------------------------------------------------*/
 void wait (void)  {
   int  d;
-
+  for (d = 0; d < 2; d++);             /* only to delay for LED flashes */	
   for (d = 0; d < 2000000; d++);             /* only to delay for LED flashes */
 }
 
